@@ -1,0 +1,5 @@
+For instance, after the initial input with the 10 page frames we get 16 
+hits and 984 misses; after the input "1 2 3 4 5 6 7 8 9 10 11 12" we get 
+10 hits and 2 misses, since cache is changed only because there is not 
+enough space, but it is not needed to rewrite some pages because of the 
+inconvenient for the system order.
